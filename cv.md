@@ -65,3 +65,13 @@ int main(void)
 ## Experience
 
 I've made a website for a door store but unfortunately now it's off. I used HTML, CSS, JS, Bootstrap, jQuery, CRM Wordpress, MySQL.
+
+## Education
+
+- Full Stack Web development course at [Udemy](https://www.udemy.com/course/web-full-stack/)
+- Harvard CS50 at [javarush](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+
+
+## English
+
+I have a pre-intermediate level of English **`B1`**
