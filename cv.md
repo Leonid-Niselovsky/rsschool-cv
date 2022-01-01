@@ -37,3 +37,31 @@ Hello everyone! You can called me shorter "Leo" that's okey :D I love tech and I
 - **Python**(API, web scraping, Django)
 - **Marketing**(SMM set Yandex target, chat-bots)
 - **Adobe**(Photoshop, PremierePro, AfterEffects, Audition)
+
+## Code Example
+
+```
+int main(void)
+{
+    int i, n, j, e;
+    string s = GetString();
+    for(i = 0, n = strlen(s); i < n; i++)
+    {
+        e = s[i];       
+        j = i;
+    while(j > 0 && s[j - 1] > e)   
+    {
+      s[j] = s[j - 1];      
+      j = j - 1;
+      s[j] = e;              
+    }
+    }
+    printf("%s", s);
+    printf("\n");
+    return 0;
+}
+```
+
+## Experience
+
+I've made a website for a door store but unfortunately now it's off. I used HTML, CSS, JS, Bootstrap, jQuery, CRM Wordpress, MySQL.
