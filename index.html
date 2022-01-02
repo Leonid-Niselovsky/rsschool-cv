@@ -11,6 +11,7 @@
     <div class="container">
         <H1>Leonid Niselovsky</H1>
         <img src="img/avatar.jpg" alt="my avatar">
+        <br>
         <h2>Contacts</h2>
         <p> <b>Location</b> Saint Petersburg, Russia</p> 
         <p><b>Phone</b> +7(937)79-202-97</p>
@@ -20,10 +21,10 @@
         <p><b>Telegram</b> @leonisel</p>
         <p><b>Skype</b> live:.cid.341c219ca20c48e6</p>
         <p><b>Instagram</b> <a href="https://www.instagram.com/leonidconnected/">leonidconnected</a></p>
-         
+        <br>
         <h2>About myself</h2>
 
-        <p>
+        <p style="text-indent: 20px;">
         Hello everyone! You can called me shorter "Leo" that's okey :D 
         I love tech and I'm gonna become a Frontend developer after 
         finishing <a href="https://rs.school">RSschool course</a>. 
@@ -36,7 +37,7 @@
         I like learning what I want and what I'm interested in. 
         I consider: "Discipline is the key to success".
         </p>
-
+        <br>
         <h2>Skills</h2>
         <p><b>HTML5,CSS3,JS</b> data type, DOM, Bootstrap, jQuery, flexbox, grid layout</p>
         <p><b>Figma</b> design landing page</p>
@@ -52,11 +53,39 @@
         <p><b>Python</b> API, web scraping, Django</p>
         <p><b>Marketing</b> SMM, set Yandex target, chat-bots</p>
         <p><b>Adobe</b> Photoshop, PremierePro, AfterEffects, Audition</p>
-
+        <br>
         <h2>Code Example</h2>
+        <pre>
+    int main(void)
+    {
+        int i, n, j, e;
+        string s = GetString();
+        for(i = 0, n = strlen(s); i < n; i++)
+        {
+            e = s[i];       
+            j = i;
+        while(j > 0 && s[j - 1] > e)   
+        {
+        s[j] = s[j - 1];      
+        j = j - 1;
+        s[j] = e;              
+        }
+        }
+        printf("%s", s);
+        printf("\n");
+        return 0;
+    }
+        </pre>    
+        <br>
         <h2>Experience</h2>
+        <p style="text-indent: 20px;">I've made a website for a door store but unfortunately now it's off. I used HTML, CSS, JS, Bootstrap, jQuery, CRM Wordpress, MySQL.</p>
+        <br>
         <h2>Education</h2>
+        <p><b>Full Stack Web development course at </b><a href="https://www.udemy.com/course/web-full-stack/">Udemy</a></p>
+        <p><b>Harvard CS50 at </b><a href="https://javarush.ru/quests/QUEST_HARVARD_CS50">javarush</a></p>
+        <br>
         <h2>English</h2>
+        <p>I have a pre-intermediate level of English <b>B1</b></p>
     </div>
 </body>
 </html>
