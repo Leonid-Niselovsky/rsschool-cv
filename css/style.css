@@ -1,0 +1,25 @@
+body {
+    background-color: #E4E5DD;
+}
+
+.container {
+    width: fit-content;
+    margin: auto auto;
+    border: 1px solid red;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
