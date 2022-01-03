@@ -31,6 +31,7 @@ body {
 
 .footer {
   margin: 0px;
+  padding: 20px;
   background-color: #85929E;
   border: 1px solid rgb(28, 42, 202);
 }
@@ -38,6 +39,7 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  min-height: 50px;
 }
 
 .nav-list {
@@ -70,6 +72,7 @@ body {
 
 .section {
   width: 50%;
+  padding: 10px;
   border: 1px solid rgb(60, 85, 228);
 }
 
@@ -139,4 +142,24 @@ body {
 
 .li-contact {
     letter-spacing: 1px;
+}
+
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.code {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 30px;
 }
