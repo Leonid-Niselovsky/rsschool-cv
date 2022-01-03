@@ -3,34 +3,35 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   min-height: 100vh;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: black;
-  
   border: 1px solid rgb(200, 105, 4);
 }
 
 .header {
   margin: 0px;
-  background-color: rgb(181, 145, 101);
+  background-color: #85929E;
   border: 1px solid rgb(172, 2, 11);
 }
 
 .main {
   margin: 0px;
+  background-color: #f3f4f6;
   border: 1px solid rgb(58, 223, 21);
 }
 
 .footer {
   margin: 0px;
+  background-color: #85929E;
   border: 1px solid rgb(28, 42, 202);
 }
 
@@ -54,11 +55,11 @@ body {
 .link {
     text-decoration: none;
     color: azure;
-
+    letter-spacing: 1px;
 }
 
 .link:hover {
-  color: rgb(237, 235, 233);
+  color: rgb(228, 228, 227);
 }
 
 .main-container {
@@ -69,6 +70,7 @@ body {
 
 .section {
   width: 50%;
+  border: 1px solid rgb(60, 85, 228);
 }
 
 @media (max-width: 768px) {
@@ -82,5 +84,59 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #08679a;
+}
+
+.img {
+  width: 190px;
+  height: 190px;
+  border-radius: 500px;
+}
+
+.h1-leonid {
+  position: relative;
+  font-size: 30px;
+}
+
+.h1-leonid::after {
+  content: " ";
+  position: absolute;
+  bottom: -25px;
+  /* left: 50%; */
+  width: 300px;
+  height: 3px;
+  margin-left: -350px;
+  background-color: #85929E;
+  
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;  
+}
+
+#avatar {
+  text-align: center;
+}
+
+.contact-decor {
+  font-weight: 800;
+}
+
+.li-contact {
+  list-style-type: none;
+}
+
+.link-contact {
+  color: #08537b;
+}
+
+.link-contact:hover {
+  color: #08679a;
+}
+
+.li-contact {
+    letter-spacing: 1px;
 }
