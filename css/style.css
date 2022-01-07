@@ -65,7 +65,7 @@ body {
 }
 
 .link:hover {
-  color: rgb(228, 228, 227);
+  color: rgb(216, 216, 214);
 }
 
 .main-container {
@@ -144,7 +144,7 @@ body {
 }
 
 .link-contact:hover {
-  color: #08679a;
+  color: #3183af;
 }
 
 .li-contact {
@@ -322,4 +322,8 @@ body {
   }
 }
 
+#burger {
+  visibility: hidden;
+}
+ 
 
