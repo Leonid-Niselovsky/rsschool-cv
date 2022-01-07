@@ -1,91 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>rsschool-cv-html</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/icon.ico">
+  <title>CV</title>
 </head>
 <body>
+  <header class="header" >
     <div class="container">
-        <H1>Leonid Niselovsky</H1>
-        <img src="img/avatar.jpg" alt="my avatar">
-        <br>
-        <h2>Contacts</h2>
-        <p> <b>Location</b> Saint Petersburg, Russia</p> 
-        <p><b>Phone</b> +7(937)79-202-97</p>
-        <p><b>Email</b> leonisel@outlook.com</p>
-        <p><b>GitHub</b> <a href="https://github.com/Leonid-Niselovsky">Leonid-Niselovsky</a></p>
-        <p><b>Discord</b> Leonid Niselovsky#7411</p>
-        <p><b>Telegram</b> @leonisel</p>
-        <p><b>Skype</b> live:.cid.341c219ca20c48e6</p>
-        <p><b>Instagram</b> <a href="https://www.instagram.com/leonidconnected/">leonidconnected</a></p>
-        <br>
-        <h2>About myself</h2>
-
-        <p style="text-indent: 20px;">
-        Hello everyone! You can called me shorter "Leo" that's okey :D 
-        I love tech and I'm gonna become a Frontend developer after 
-        finishing <a href="https://rs.school">RSschool course</a>. 
-        My second goal is to get an Advanced level of English. 
-        The most important life priorities for me is health, 
-        family and self-development. 
-        I have got such strengths as positive thinking, persistence, 
-        open mind, eco/sober outlook on life and belief in people. 
-        A have great soft skills. 
-        I like learning what I want and what I'm interested in. 
-        I consider: "Discipline is the key to success".
-        </p>
-        <br>
-        <h2>Skills</h2>
-        <p><b>HTML5,CSS3,JS</b> data type, DOM, Bootstrap, jQuery, flexbox, grid layout</p>
-        <p><b>Figma</b> design landing page</p>
-        <p><b>Git</b> GitHub</p>
-        <p><b>IDE</b> VScode, SublimeText, PyCharm</p>
-        <p><b>Terminal</b> bash, zsh</p>
-        <p><b>Browsers</b> dev-tools</p>
-        <p><b>OS</b> macOS, windows, linux</p>
-        <p><b>PHP</b> WordPress</p>
-        <p><b>SQL</b> MySQL</p>
-        <p><b>Servers</b> XAMPP, MAMP, FileZilla</p>
-        <p><b>C</b> Sorting algorithms, encryption</p>
-        <p><b>Python</b> API, web scraping, Django</p>
-        <p><b>Marketing</b> SMM, set Yandex target, chat-bots</p>
-        <p><b>Adobe</b> Photoshop, PremierePro, AfterEffects, Audition</p>
-        <br>
-        <h2>Code Example</h2>
-        <pre>
-    int main(void)
-    {
-        int i, n, j, e;
-        string s = GetString();
-        for(i = 0, n = strlen(s); i < n; i++)
-        {
-            e = s[i];       
-            j = i;
-        while(j > 0 && s[j - 1] > e)   
-        {
-        s[j] = s[j - 1];      
-        j = j - 1;
-        s[j] = e;              
-        }
-        }
-        printf("%s", s);
-        printf("\n");
-        return 0;
-    }
-        </pre>    
-        <br>
-        <h2>Experience</h2>
-        <p style="text-indent: 20px;">I've made a website for a door store but unfortunately now it's off. I used HTML, CSS, JS, Bootstrap, jQuery, CRM Wordpress, MySQL.</p>
-        <br>
-        <h2>Education</h2>
-        <p><b>Full Stack Web development course at </b><a href="https://www.udemy.com/course/web-full-stack/">Udemy</a></p>
-        <p><b>Harvard CS50 at </b><a href="https://javarush.ru/quests/QUEST_HARVARD_CS50">javarush</a></p>
-        <br>
-        <h2>English</h2>
-        <p>I have a pre-intermediate level of English <b>B1</b></p>
+      <nav class="nav">
+        <input type="checkbox" id="burger">
+        <label for="burger"></label>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link link">Contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link link">Skills</a></li>
+          <li class="nav-item"><a href="#about-myself" class="nav-link link">About myself</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link link">Code Example</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link link">Courses</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link link">English</a></li>
+        </ul>  
+      </nav>
     </div>
+  </header>
+  <main class="main main-container">
+    <div class="container main-div">
+      <section class="section section-bottom sections-top" id="name">
+        <h1 class="section-title h1-leonid" style="font-size: 30px;">Leonid Niselovsky</h1>
+        <h3 class="section-title container">web developer</h3>  
+      </section>
+      <div class="section section-bottom sections-top" id="avatar">
+          <img class="img" src="assets/img/avatar.jpg" alt="photo">
+      </div>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="ul-contact">
+          <li class="li-contact contact-icon"><span class="contact-decor">Location:</span> Saint Petersburg, Russia</li> 
+          <li class="li-contact contact-icon"><span class="contact-decor">Phone:</span> +7(937)79-202-97</li>
+          <li class="li-contact contact-icon"><span class="contact-decor">Email:</span> leonisel@outlook.com</li>
+          <li class="li-contact contact-icon"><span class="contact-decor">GitHub:</span> <a class="link link-contact" href="https://github.com/Leonid-Niselovsky">Leonid-Niselovsky</a></li>
+          <li class="li-contact contact-icon"><span class="contact-decor">Discord:</span> Leonid Niselovsky#7411</li>
+          <li class="li-contact contact-icon"><span class="contact-decor">Telegram:</span> @leonisel</li>
+          <li class="li-contact contact-icon"><span class="contact-decor">Skype:</span> live:.cid.341c219ca20c48e6</li>
+          <li class="li-contact contact-icon"><span class="contact-decor">Instagram:</span> <a class="link link-contact" href="https://www.instagram.com/leonidconnected/">leonidconnected</a></li>  
+        </ul>
+      </section>  
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="ul-contact">
+          <li class="li-contact li-skills"><span class="contact-decor">HTML5/CSS3/JS:</span> DOM, Bootstrap, jQuery, flexbox</li>
+          <li class="li-contact li-skills"><span class="contact-decor">Figma:</span> Design landing page</li>
+          <li class="li-contact li-skills"><span class="contact-decor">Git:</span> GitHub</li>
+          <li class="li-contact li-skills"><span class="contact-decor">IDE:</span> VScode, SublimeText, PyCharm</li>
+          <li class="li-contact li-skills"><span class="contact-decor">Terminal:</span> Bash, zsh</li>
+          <li class="li-contact li-skills"><span class="contact-decor">Browsers:</span> Dev-tools</li>
+          <li class="li-contact li-skills"><span class="contact-decor">OS:</span> Windows, macOS, Linux</li>
+        </ul>
+      </section>
+      <section class="section" id="about-myself">
+        <h2 class="section-title">About myself</h2>
+        <p >
+          Hello everyone! You can called me shorter "Leo" that's okey :D 
+          I love tech and I'm gonna become a Frontend developer after 
+          finishing <a class="link link-contact" href="https://rs.school">RSschool course</a>. 
+        </p>
+        <p >My second goal is to get an Advanced level of English. 
+          The most important life priorities for me is health, 
+          family and self-development. 
+          I have got such strengths as positive thinking, persistence, 
+          open mind, eco/sober outlook on life and belief in people.
+        </p> 
+        <p>I have great soft skills. 
+          I like learning what I want and what I'm interested in. 
+          I consider: "Discipline is the key to success".
+        </p>
+      </section>
+      <section class="section" id="code-example">
+        <h2 class="section-title">Code Example</h2>
+        <div class="pre-code">
+          <code>
+            function multiply(a, b) {
+            <br>  
+            &nbsp; return a * b;
+            <br>  
+            }               
+          </code>
+        </div>
+      </section>
+      <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="ul-contact">
+            <li class="li-contact"><span>Full Stack Web development course at </span><a class="link link-contact" href="https://www.udemy.com/course/web-full-stack/">Udemy</a></li>
+            <li class="li-contact"><span>Harvard CS50 course at </span><a class="link link-contact" href="https://javarush.ru/quests/QUEST_HARVARD_CS50">Javarush</a></li>
+          </ul>
+      </section>
+      <section class="section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <p>I made an application called <b>Time of reaction </b></p>
+          <p>I used HTML, CSS, JS. <a class="link link-contact" href="https://github.com/Leonid-Niselovsky/Time-of-reaction/tree/gh-pages">Link to GitHub code</a></p>
+        </section>
+      <section class="section section-bottom" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>I graduated from <a class="link link-contact" href="https://www.psuti.ru/">PSUTI</a></p>
+      </section>
+      <section class="section section-bottom" id="english">
+          <h2 class="section-title">English</h2>
+          <p>I have a pre-intermediate level of English <b>B1</b></p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-div">
+      <a href="https://rs.school/js/" class="link footer-rss"></a>
+      <div class="footer-year">© 2022</div>
+      <a href="https://github.com/Leonid-Niselovsky" class="link footer-mylink">Leonid Niselovsky</a>
+    </div>
+  </footer>
 </body>
 </html>
